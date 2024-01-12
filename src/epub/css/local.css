@@ -172,3 +172,14 @@ p span.i2{
 	text-indent: -1em;
 }
 /* End poetry and songs */
+
+/* Blockquote in introduction */
+#introduction blockquote{
+	font-style: italic;
+}
+
+#introduction blockquote > p > b{
+	font-variant: small-caps;
+	font-style: normal;
+}
+/* End blockquote in introduction */
