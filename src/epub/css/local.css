@@ -179,7 +179,7 @@ p span.i2{
 }
 
 #introduction blockquote > p > b{
-	font-variant: small-caps;
 	font-style: normal;
+	font-variant: small-caps;
 }
 /* End blockquote in introduction */
