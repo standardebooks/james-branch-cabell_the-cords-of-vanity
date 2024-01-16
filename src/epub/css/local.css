@@ -183,3 +183,16 @@ p span.i2{
 	font-variant: small-caps;
 }
 /* End blockquote in introduction */
+
+/* Headers in subsections */
+#the-apologue-of-the-first-conjugation header,
+#a-defence-of-that-attitude header{
+	font-style: italic;
+	margin-top: 1em;
+}
+
+#the-apologue-of-the-first-conjugation > header + *,
+#a-defence-of-that-attitude > header + *{
+	margin-top: 1em;
+}
+/* End headers in subsections */
