@@ -186,13 +186,15 @@ p span.i2{
 
 /* Headers in subsections */
 #the-apologue-of-the-first-conjugation header,
-#a-defence-of-that-attitude header{
+#a-defence-of-that-attitude header,
+#story-of-the-flowery-kingdom header{
 	font-style: italic;
 	margin-top: 1em;
 }
 
 #the-apologue-of-the-first-conjugation > header + *,
-#a-defence-of-that-attitude > header + *{
+#a-defence-of-that-attitude > header + *,
+#story-of-the-flowery-kingdom > header + *{
 	margin-top: 1em;
 }
 /* End headers in subsections */
