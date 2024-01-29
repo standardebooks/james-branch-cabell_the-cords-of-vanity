@@ -187,14 +187,16 @@ p span.i2{
 /* Headers in subsections */
 #the-apologue-of-the-first-conjugation header,
 #a-defence-of-that-attitude header,
-#story-of-the-flowery-kingdom header{
+#story-of-the-flowery-kingdom header,
+#the-indulgences-of-ole-luk-oie header{
 	font-style: italic;
 	margin-top: 1em;
 }
 
 #the-apologue-of-the-first-conjugation > header + *,
 #a-defence-of-that-attitude > header + *,
-#story-of-the-flowery-kingdom > header + *{
+#story-of-the-flowery-kingdom > header + *,
+#the-indulgences-of-ole-luk-oie > header + *{
 	margin-top: 1em;
 }
 /* End headers in subsections */
