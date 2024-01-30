@@ -30,4 +30,10 @@
 			<reason>Dialog spans multiple paragraphs.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-19.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Punctuation is deliberately omitted per page scans.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
