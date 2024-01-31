@@ -28,6 +28,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Cords of Vanity</dc:title>
 		<meta property="file-as" refines="#title">Cords of Vanity, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Comedy of Shirking</dc:title>
+		<meta property="file-as" refines="#subtitle">Comedy of Shirking, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Cords of Vanity: A Comedy of Shirking</dc:title>
+		<meta property="file-as" refines="#fulltitle">Cords of Vanity, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Authors -- Fiction</dc:subject>
 		<dc:subject id="subject-2">United States -- Social life and customs -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Marriage -- Fiction</dc:subject>
@@ -37,37 +44,54 @@
 		<meta property="term" refines="#subject-2">sh2007100003</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008107201</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Comedy</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">13</meta>
+		<dc:description id="description">An arrogant young author makes his way through a series love affairs, avoiding every situation that may cause unpleasantness.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;The Cords of Vanity&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell&lt;/a&gt; is the thirteenth installment in his &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt; series.&lt;/p&gt;
+			&lt;p&gt;Robert Etheridge Townsend is an arrogant young man from a prominent wealthy family (he is the great-grandson of &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/james-branch-cabell/jurgen"&gt;Jurgen&lt;/a&gt;&lt;/i&gt; of Poictesme). As a teenager, he falls in love with Stella, beginning the first of many love affairs. Townsend’s vanity allows him to proceed through these love affairs with disregard for the women who are the objects of his “affection.” As the years pass, he begins to mature, but still struggles to overcome the need to avoid any situation that may cause him unpleasantness.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Cords of Vanity&lt;/i&gt; was originally published in 1909, and was revised in 1920 (the edition on which this ebook is based) with an introduction by author Wilson Follett. Six of the chapters were originally published as short stories in the monthly literary magazine &lt;i&gt;The Smart Set&lt;/i&gt;.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9608</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/cordsofvanitycom0000cabe</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-branch-cabell_the-cords-of-vanity</meta>
 		<dc:creator id="author">James Branch Cabell</dc:creator>
 		<meta property="file-as" refines="#author">Cabell, James Branch</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_Branch_Cabell</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80039689</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="author-of-introduction">Wilson Follett</dc:contributor>
+		<meta property="file-as" refines="#author-of-introduction">Follett, Wilson</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/Wilson_Follett</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n80152815</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
+		<dc:contributor id="artist">Jean Béraud</dc:contributor>
+		<meta property="file-as" refines="#artist">Béraud, Jean</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jean_B%C3%A9raud</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr99035516</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Virginia Paque</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Paque, Virginia</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Anuradha Valsa</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Valsa, Anuradha</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-4">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Brad Taylor</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Taylor, Brad</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/btaylor8/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
