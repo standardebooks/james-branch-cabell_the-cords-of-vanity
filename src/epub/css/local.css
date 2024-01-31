@@ -119,11 +119,6 @@ p span.i1{
 #introduction blockquote{
 	font-style: italic;
 }
-
-#introduction blockquote > p > b{
-	font-style: normal;
-	font-variant: small-caps;
-}
 /* End blockquote in introduction */
 
 /* Headers in subsections */
