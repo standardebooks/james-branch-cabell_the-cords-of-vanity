@@ -129,18 +129,18 @@ p span.i1{
 /* End blockquote in introduction */
 
 /* Headers in subsections */
-#the-apologue-of-the-first-conjugation header,
-#a-defence-of-that-attitude header,
-#story-of-the-flowery-kingdom header,
-#the-indulgences-of-ole-luk-oie header{
+#chapter-4-2-1 header,
+#chapter-9-3-1 header,
+#chapter-10-1-1 header,
+#chapter-19-3-1 header{
 	font-style: italic;
 	margin-top: 1em;
 }
 
-#the-apologue-of-the-first-conjugation > header + *,
-#a-defence-of-that-attitude > header + *,
-#story-of-the-flowery-kingdom > header + *,
-#the-indulgences-of-ole-luk-oie > header + *{
+#chapter-4-2-1 > header + *,
+#chapter-9-3-1 > header + *,
+#chapter-10-1-1 > header + *,
+#chapter-19-3-1 > header + *{
 	margin-top: 1em;
 }
 /* End headers in subsections */
