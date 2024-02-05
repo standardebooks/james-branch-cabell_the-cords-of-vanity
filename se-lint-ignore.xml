@@ -2,25 +2,25 @@
 <se-lint-ignore>
 	<file path="prologue.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Punctuation is deliberately omitted per page scans.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-4.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Punctuation is deliberately omitted per page scans.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-9.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Punctuation is deliberately omitted per page scans.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-10.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Punctuation is deliberately omitted per page scans.</reason>
 		</ignore>
 	</file>
@@ -32,7 +32,7 @@
 	</file>
 	<file path="chapter-19.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Punctuation is deliberately omitted per page scans.</reason>
 		</ignore>
 	</file>
