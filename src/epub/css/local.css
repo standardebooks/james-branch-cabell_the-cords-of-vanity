@@ -136,6 +136,7 @@ p span.i1{
 /* End blockquote in introduction */
 
 /* Headers in subsections */
+#prologue-2-1 header,
 #chapter-4-2-1 header,
 #chapter-9-3-1 header,
 #chapter-10-1-1 header,
@@ -144,6 +145,7 @@ p span.i1{
 	margin-top: 1em;
 }
 
+#prologue-2-1 > header + *,
 #chapter-4-2-1 > header + *,
 #chapter-9-3-1 > header + *,
 #chapter-10-1-1 > header + *,
