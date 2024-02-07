@@ -135,21 +135,13 @@ p span.i1{
 }
 /* End blockquote in introduction */
 
-/* Headers in subsections */
-#prologue-2-1 header,
-#chapter-4-2-1 header,
-#chapter-9-3-1 header,
-#chapter-10-1-1 header,
-#chapter-19-3-1 header{
+/* Headers in story subsections */
+.story-header{
 	font-style: italic;
 	margin-top: 1em;
 }
 
-#prologue-2-1 > header + *,
-#chapter-4-2-1 > header + *,
-#chapter-9-3-1 > header + *,
-#chapter-10-1-1 > header + *,
-#chapter-19-3-1 > header + *{
+.story-header + p{
 	margin-top: 1em;
 }
-/* End headers in subsections */
+/* End headers in story subsections */
