@@ -145,3 +145,14 @@ p span.i1{
 	margin-top: 1em;
 }
 /* End headers in story subsections */
+
+/* Story subsection containing poem */
+#chapter-10-1-1{
+	margin-bottom: 1em;
+	margin-left: 2.5em;
+}
+
+#chapter-10-1-1 header > p{
+	text-align: center;
+}
+/* End story subsection containing poem */
