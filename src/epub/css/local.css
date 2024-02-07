@@ -136,12 +136,12 @@ p span.i1{
 /* End blockquote in introduction */
 
 /* Headers in story subsections */
-.story-header{
+section > header{
 	font-style: italic;
 	margin-top: 1em;
 }
 
-.story-header + p{
+section > header + p{
 	margin-top: 1em;
 }
 /* End headers in story subsections */
