@@ -49,7 +49,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">13</meta>
-		<dc:description id="description">An arrogant young author makes his way through a series love affairs, avoiding every situation that may cause unpleasantness.</dc:description>
+		<dc:description id="description">An arrogant young author makes his way through a series of love affairs, avoiding every situation that may cause unpleasantness.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Cords of Vanity&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell&lt;/a&gt; is the thirteenth installment in his &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt; series.&lt;/p&gt;
 			&lt;p&gt;Robert Etheridge Townsend is an arrogant young man from a prominent wealthy family (he is the great-grandson of &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/james-branch-cabell/jurgen"&gt;Jurgen&lt;/a&gt;&lt;/i&gt; of Poictesme). As a teenager, he falls in love with Stella, beginning the first of many love affairs. Townsend’s vanity allows him to proceed through these love affairs with disregard for the women who are the objects of his “affection.” As the years pass, he begins to mature, but still struggles to overcome the need to avoid any situation that may cause him unpleasantness.&lt;/p&gt;
