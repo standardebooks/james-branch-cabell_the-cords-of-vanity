@@ -71,7 +71,7 @@
 		<meta property="file-as" refines="#author-of-introduction">Follett, Wilson</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/Wilson_Follett</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n80152815</meta>
-		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Jean Béraud</dc:contributor>
 		<meta property="file-as" refines="#artist">Béraud, Jean</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jean_B%C3%A9raud</meta>
