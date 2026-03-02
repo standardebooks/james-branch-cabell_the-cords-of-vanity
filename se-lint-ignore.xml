@@ -1,38 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-4.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Punctuation is deliberately omitted per page scans.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-9.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Punctuation is deliberately omitted per page scans.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-10.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Punctuation is deliberately omitted per page scans.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-16.xhtml">
-		<ignore>
-			<code>t-003</code>
+		<ignore code="t-003">
 			<reason>Dialog spans multiple paragraphs.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-19.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Punctuation is deliberately omitted per page scans.</reason>
 		</ignore>
 	</file>
 	<file path="prologue.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Punctuation is deliberately omitted per page scans.</reason>
 		</ignore>
 	</file>
