@@ -73,6 +73,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="author-of-introduction">Wilson Follett</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Follett, Wilson</meta>
+		<meta property="schema:alternateName" refines="#author-of-introduction">Roy Wilson Follett</meta>
 		<link href="https://en.wikipedia.org/wiki/Wilson_Follett" refines="#author-of-introduction" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n80152815.html" refines="#author-of-introduction" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">win</meta>
